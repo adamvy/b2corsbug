@@ -13,5 +13,6 @@ window.onload = function() {
         })
         .catch((e) => {
             document.body.append('' + e);
+            document.body.append("check devtools for the network error, but be sure to keep caching enabled");
         });
 }
